@@ -1,0 +1,68 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:boder-box;
+}
+.contact{
+    position:relative;
+    height: 500px;
+    padding: 50px ;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    background-image: url("/image/black.jpg");
+    background-size: cover;
+    
+}
+.content h2{
+    font-size:36px;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: row;
+}
+ .cantactInfo{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    
+}
+.contactForm{
+    height:100%;
+
+    margin-left: 50px;
+    color: rgb(0, 174, 255);
+    
+   
+}
+.contactForm h2{
+    color: rgb(110, 102, 102);
+}
+.contactForm .inputBox input {
+    border: none;
+    border-radius: 2px;
+    width:50%;
+    height:15px;
+    background-color:rgb(202, 196, 196);
+}
+.contactForm .submitBox input{
+    border-radius: 5px;
+    background-color: rgb(16, 115, 207);
+    border: none;
+
+
+}
+.contactForm .inputBox textarea{
+    background-color: rgb(202, 196, 196);
+    border-radius:3px;
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url("/image/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.container,.navbar ul{
+    display:flex;
+}
+.container{
+    padding-left: 10px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.548);
+    height:70px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.navbar li a {
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+    
+
+}
+.navbar ul{
+    list-style: none;
+    
+}
+
+.navbar{
+    
+    width: 350px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.searchbar{
+    /* margin-top: 27px; */
+    margin-right: 10px;
+    border-radius: 5px;
+    align-content: center;
+     
+    
+    /* width: 20%; */
+    
+}
+.searchbar input{
+    border-radius: 200px;
+    border: 1px solid black;
+    border-bottom:3px solid rgb(53, 172, 180);
+    height: 30px;
+    background-color:transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+   
+}
+.textbox:hover{
+   
+    border-color:  black;
+}
+.textbox{
+    text-align: center;
+}
+
+.btn{
+    height: 30px;
+    width:30px;
+}
+.btn:hover{
+    border-color:black;
+    cursor: pointer;
+    border-top: red;
+}
+.log-btn{
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
+    border-radius:7px;
+    border:none;
+    border: 2px solid rgb(45, 170, 170);
+    color:white;
+
+} 
+.bg-btn-green{
+    background-color:green;
+    
+}
+.bg-btn-red{
+    background-color:red;
+
+}
+
+
+/* Here is text style part */
+.text_Style{
+   
+    display:flex;
+    justify-content:center;
+    
+}
+
+.text_Style h1{
+    width:0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 12s steps(35) infinite alternate;
+    border-right: 5px solid black;
+    font-size: 40px;
+    color: white;
+}
+@keyframes text{
+    0%{
+        width:0ch;
+    }
+    50%{
+        width: 32ch;
+    }
+}
+
