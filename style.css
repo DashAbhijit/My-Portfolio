@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     
@@ -19,7 +19,7 @@ body{
     background-color: rgba(0, 0, 0, 0.548);
     height:70px;
     display: flex;
-    /* text-align: center; */
+    
     align-items: center;
 }
 
@@ -43,13 +43,10 @@ body{
     align-items:center;
 }
 .searchbar{
-    /* margin-top: 27px; */
     margin-right: 10px;
     border-radius: 5px;
     align-content: center;
      
-    
-    /* width: 20%; */
     
 }
 .searchbar input{
@@ -96,11 +93,11 @@ body{
 .bg-btn-red{
     background-color:red;
 
-}
+} */
 
 
 /* Here is text style part */
-.text_Style{
+/* .text_Style{
    
     display:flex;
     justify-content:center;
@@ -111,7 +108,7 @@ body{
     width:0ch;
     overflow: hidden;
     white-space: nowrap;
-    animation: text 12s steps(35) infinite alternate;
+    animation: text 15s steps(40) infinite alternate;
     border-right: 5px solid black;
     font-size: 40px;
     color: white;
@@ -123,5 +120,42 @@ body{
     50%{
         width: 32ch;
     }
+} */
+
+.text_Style {
+    display: flex;
+    justify-content: center;
 }
 
+.text_Style h1 {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 15s steps(40) infinite alternate;
+    border-right: 5px solid black;
+    font-size: 40px;
+    color: white;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 37ch;
+    }
+}
+
+@media (max-width: 768px) {
+    .text_Style h1 {
+        font-size: 25px; /* Adjust font size for smaller screens */
+        border-right: 3px solid black; /* Thinner border for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .text_Style h1 {
+        font-size: 20px; /* Further adjust for very small screens */
+        border-right: 2px solid black;
+    }
+}
